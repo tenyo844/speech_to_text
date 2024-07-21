@@ -180,3 +180,8 @@ dist/
 
 # db
 *.db
+
+# frontend
+/frontend/node_modules
+/frontend/public
+/frontend/*.json
