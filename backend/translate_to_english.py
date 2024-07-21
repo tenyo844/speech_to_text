@@ -2,7 +2,7 @@ from google.cloud import translate_v2 as translate
 import os
 
 # APIキーを環境変数として設定
-os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = '~/.config/google/third-index-428110-s0-f738e27d63f2.json'
+os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = '~/.config/google/your-apikey.json'
 
 # クライアントの作成
 translate_client = translate.Client()
